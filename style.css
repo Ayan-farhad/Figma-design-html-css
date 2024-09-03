@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI';
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0 0;
+}
+.nav-items{
+    display: flex;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin:20px 0 0;
+    font-size: 18px;
+    font-weight: 550;
+    color: rgba(28, 28, 28, 0.969);
+    transition: 0.3s ease;
+}
+.nav-links li{
+    cursor: pointer;
+}
+
+.nav-items button {
+    background-color: #ffff;
+    width: 155px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px 0 0 30px;
+    transition: 0.2s ease;
+}
+.nav-items button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px){
+    
+}
